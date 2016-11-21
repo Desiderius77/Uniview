@@ -1,0 +1,136 @@
+#content
+{
+    position: absolute;
+    width:100% - 20px;
+    height:100% - 20px;
+    top:20px;
+    left:20px;
+    bottom:20px;
+    right:20px;
+    overflow: hidden;
+    background: #EBEBEB;
+}
+
+#content-video
+{
+    position: absolute;
+    width:49.5%;
+    height:60%;
+}
+
+.card.mdl-card {
+                    width: 100%;
+                    height: 100%;
+                  }
+
+.commentcard.mdl-card {
+                    width: 100%;
+                    height: 100%;
+                    overflow-y: scroll;
+                  }
+
+.aboutcard.mdl-card {
+                    top:5%;
+                    bottom: 5%;
+                    left:5%;
+                    right:5%;
+                    width: 90%;
+                    height: 90%;
+                    overflow: auto;
+                  }
+
+p.aboutcard.mdl-card{
+    left:20px;
+}
+                  
+.card > .mdl-card__menu {
+                    color: #fff;
+                  }
+
+#content-page
+{
+    position: absolute;
+    width:49.5%;
+    height:60%;
+    right:0px;
+    text-align: center;
+    color: #EBEBEB;
+}
+
+#content-commentview
+{
+    position: absolute;
+    width:100%;
+    height:30%;
+    bottom:60px;
+    top:62%;
+}
+
+.demo-list-action {
+                  width: 100%;
+                  height: 100%;
+                }
+
+#content-comment-text
+{
+    position: absolute;
+    width:89%;
+    height:50px;
+    left:1px;
+    bottom:0px;
+    background: #EBEBEB;
+}
+
+form{
+    background-color: #EBEBEB;
+}
+
+#content-comment-button
+{
+    position: absolute;
+    width:150px;
+    height:50px;
+    right:1px;
+    bottom:0px;
+    z-index: 1;
+}
+
+#content-comment-button-centering
+{
+    margin-top:7px;
+}
+
+#content-about
+{
+    position: absolute;
+    width:100% - 20px;
+    height:100% - 20px;
+    top:20px;
+    left:20px;
+    bottom:20px;
+    right:20px;
+}
+
+#content-about-text
+{
+    position: absolute;
+    width:100% - 20px;
+    height:100% - 20px;
+    top:20px;
+    left:20px;
+    bottom:20px;
+    right:20px;
+    background-color: #0024AB;
+}
+
+#menu-copyright
+{
+    position: absolute;
+    bottom:1px;
+    left:20px;
+    width:180px;
+    height:130px;
+    font-size: 12px;
+    color:gray;
+    overflow: scroll;
+}

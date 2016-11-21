@@ -1,0 +1,55 @@
+<!doctype html>
+
+<head>
+  <link rel="stylesheet" href="material.css">
+  <link rel="stylesheet" href="extended.css">
+  <script src="material.js"></script>
+  <script src="core.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row ">
+        <div class="mdl-layout-title">Applications Orientées Services - Cours #3</div>
+        <div class="mdl-layout-spacer"></div>
+
+        <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
+          <i class="material-icons">more_vert</i>
+        </button>
+
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+          <li class="mdl-menu__item" style="font-size:18px;"><i class="material-icons" style="font-size:16px;">aspect_ratio</i> Mode plein écran</li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout__title"><img src="images/logo.png"></span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="index.html">Retour vers la session</a>
+        <a class="mdl-navigation__link" href="#">Paramètres</a><br />
+        <a class="mdl-navigation__link" href="about.html">A propos de Uniview</a>
+      </nav>
+      <div id="menu-copyright">&copy; 2016 Uniview<br /><br />Marvin Alves de Jesus<br />Fabien LeHouezec<br />Yann Mortier</div>
+    </div>
+
+    <main class="mdl-layout__content">
+      <div id="content-about">
+        <div class="mdl-card aboutcard mdl-shadow--4dp">
+          <h3>About Uniview</h3><br />
+          <p></p>
+          <p>Uniview implements WebRTC API.</p>
+          <p class="aboutcard mdl-card"><img src="images/webrtc-logo.png" style="width:200px;" /></p>
+          <br />
+          <br />
+          <h5>Designed by :</h5>
+          <p>Marvin Alves de Jesus<br />Fabien LeHouezec<br />Yann Mortier</p>
+          <p>&copy; 2016 Uniview</p>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
