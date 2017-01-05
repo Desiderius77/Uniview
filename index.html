@@ -7,7 +7,7 @@
   <script src="core.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <meta charset="UTF-8">
-  
+
 </head>
 
 <body>
@@ -41,14 +41,13 @@
       <div id="content">
 
         <div id="video-title">
-          Session en direct 
+          Session en direct
         </div>
 
         <div id="content-video">
           <div class="mdl-card card mdl-shadow--4dp">
             <video id="v" controls width="100%" height="100%">
-              <source src="video.mp4"
-                type=video/mp4>
+              <source src="video.mp4" type=video/mp4>
             </video>
           </div>
         </div>
@@ -71,8 +70,11 @@
 
     <footer>
       <div id="footer-content">
-      <input id="slider" class="mdl-slider mdl-js-slider slider-color" type="range" min="24.5" max="74.5" value="49.5" tabindex="0" oninput="slideChange();">
-      Zoom
+        <div id="footer-content-left">25 | 75</div>
+        <div id="footer-content-right">75 | 25</div>
+        <div id="footer-content-slider"><input id="slider" class="mdl-slider mdl-js-slider slider" type="range" min="24.5" max="74.5" value="49.5" tabindex="0"
+          oninput="slideChange();">
+        </div>
       </div>
     </footer>
   </div>

@@ -5613,7 +5613,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
 }
 
 .mdl-slider__background-lower {
-	background: rgb(63, 81, 181)
+	background: #ffffff;
 }
 
 .mdl-slider__background-lower, .mdl-slider__background-upper {
@@ -5626,7 +5626,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
 }
 
 .mdl-slider__background-upper {
-	background: rgba(0, 0, 0, .26);
+	background: #00b0ff;
 	transition: left .18s cubic-bezier(.4, 0, .2, 1)
 }
 

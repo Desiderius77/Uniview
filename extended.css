@@ -16,10 +16,6 @@ body
 
 }
 
-.slider-color {
-    color:white;
-}
-
 .card.mdl-card {
                     width: 100%;
                     height: 100%;
@@ -119,6 +115,31 @@ footer
     background-color: #424242;
     overflow: hidden;
     text-align: center;
+}
+
+#footer-content-left
+{
+    position: absolute;
+    width: 100px;
+    height : 12px;
+    left : 0px;
+    text-align: left;
+}
+
+#footer-content-right
+{
+    position: absolute;
+    width: 100px;
+    height : 12px;
+    right : 0px;
+    text-align: right;
+}
+
+#footer-content-slider {
+    position: absolute;
+    width: 80%;
+    height : 12px;
+    left : 10%;
 }
 
 .demo-list-action {
