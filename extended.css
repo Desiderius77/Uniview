@@ -13,18 +13,12 @@ body
     bottom:20px;
     right:20px;
     overflow: hidden;
-<<<<<<< HEAD
 
 }
 
 .slider-color {
     color:white;
-=======
-
->>>>>>> origin/master
 }
-
-
 
 .card.mdl-card {
                     width: 100%;
@@ -58,11 +52,7 @@ p.aboutcard.mdl-card{
 #content-video
 {
     position: absolute;
-<<<<<<< HEAD
     top:15%;
-=======
-    top:20%;
->>>>>>> origin/master
     width:49.5%;
     height:57%;
 }
@@ -70,11 +60,7 @@ p.aboutcard.mdl-card{
 #content-page
 {
     position: absolute;
-<<<<<<< HEAD
     top:15%;
-=======
-    top:20%;
->>>>>>> origin/master
     width:49.5%;
     height:58%;
     right:0px;
@@ -85,11 +71,7 @@ p.aboutcard.mdl-card{
 #video-title
 {
     position: absolute;
-<<<<<<< HEAD
     top : 5%;
-=======
-    top : 7%;
->>>>>>> origin/master
     width:49.5%;
     height:10%;
     overflow: hidden;
@@ -100,11 +82,7 @@ p.aboutcard.mdl-card{
 #doc-title
 {
     position: absolute;
-<<<<<<< HEAD
     top: 5%;
-=======
-    top: 7%;
->>>>>>> origin/master
     width:49.5%;
     height:10%;
     right:0px;
@@ -140,11 +118,7 @@ footer
     left: 35%;
     background-color: #424242;
     overflow: hidden;
-<<<<<<< HEAD
     text-align: center;
-=======
-
->>>>>>> origin/master
 }
 
 .demo-list-action {
