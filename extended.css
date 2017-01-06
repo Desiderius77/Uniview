@@ -42,7 +42,7 @@ p.aboutcard.mdl-card{
 }
                   
 .card > .mdl-card__menu {
-                    color: #fff;
+                    color: #1E1F23;
                   }
 
 #content-video
@@ -164,11 +164,11 @@ footer
     height:50px;
     left:1px;
     bottom:0px;
-    background: #EBEBEB;
+    background: #1E1F23;
 }
 
 form{
-    background-color: #EBEBEB;
+    background-color: #1E1F23;
 }
 
 #content-comment-button
@@ -204,6 +204,7 @@ form{
     left:20px;
     bottom:20px;
     right:20px;
+    background-color: #1E1F23;
 }
 
 #content-about-text
@@ -215,7 +216,7 @@ form{
     left:20px;
     bottom:20px;
     right:20px;
-    background-color: #0024AB;
+    background-color: #1E1F23;
 }
 
 #menu-copyright
