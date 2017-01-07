@@ -52,6 +52,7 @@ p.aboutcard.mdl-card{
     top:15%;
     width:49.5%;
     height:57%;
+    background-color: #1E1F23;
 }
 
 #content-page
@@ -62,6 +63,7 @@ p.aboutcard.mdl-card{
     height:58%;
     right:0px;
     text-align: center;
+    background-color: #1E1F23;
     color: #EBEBEB;
 }
 
