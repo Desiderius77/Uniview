@@ -1,6 +1,7 @@
 body
 {
     background-color: #1E1F23;
+    min-width: 400px;
 }
 
 #content
@@ -86,6 +87,86 @@ p.aboutcard.mdl-card{
     color:white;
     font-size: 24px;
     text-align: right;
+}
+
+#sound_video_params
+{
+    position: absolute;
+    width:400px;
+    height:80px;
+    overflow: hidden;
+    color: white;
+    background-color: #424242;
+}
+
+#sound_params
+{
+    position: absolute;
+    width:100%;
+    top : 10px;
+    height:34px;
+    overflow: hidden;
+    color: white;
+    background-color: #424242;
+}
+
+#sound_params_text
+{
+    position: absolute;
+    width:40%;
+    left :20px;
+    top:10%;
+    height:80%;
+    overflow: hidden;
+    color: white;
+    background-color: #424242;
+}
+
+#sound_params_combo
+{
+    position: absolute;
+    width:50%;
+    right: 10px;
+    top:10%;
+    height:80%;
+    overflow: hidden;
+    color: white;
+    background-color: #424242;
+}
+
+#video_params
+{
+    position: absolute;
+    width:100%;
+    top : 44px;
+    height:34px;
+    overflow: hidden;
+    color: white;
+    background-color: #424242;
+}
+
+#video_params_text
+{
+    position: absolute;
+    width:40%;
+    left :20px;
+    top:10%;
+    height:80%;
+    overflow: hidden;
+    color: white;
+    background-color: #424242;
+}
+
+#video_params_combo
+{
+    position: absolute;
+    width:50%;
+    right: 10px;
+    top:10%;
+    height:80%;
+    overflow: hidden;
+    color: white;
+    background-color: #424242;
 }
 
 #content-commentview

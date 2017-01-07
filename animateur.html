@@ -60,7 +60,7 @@
             </iframe>
           </div>
         </div>
-        
+
         <div id="logo">
           <img src="images/ueve.png" style="width:80px;">
           <img src="images/utl.jpg" style="width:150px;">
@@ -71,9 +71,35 @@
     </main>
 
     <footer>
+      <div id="sound_video_params">
+        <div id="sound_params">
+          <div id="sound_params_text">
+            <h7>Source vidéo :</h7>
+          </div>
+          <div id="sound_params_combo">
+            <input type="text" list="audio">
+            <datalist id="audio">
+              <option> Choix 1 </option> 
+              <option> Choix 2 </option> 
+            </datalist>
+          </div>
+        </div>
+        <div id="video_params">
+          <div id="video_params_text">
+            <h7>Entrée audio :</h7>
+          </div>
+          <div id="video_params_combo">
+            <input type="text" list="video">
+            <datalist id="video" class="datalist_css">
+              <option> Choix 1 </option> 
+              <option> Choix 2 </option> 
+            </datalist>
+          </div>  
+        </div>
+      </div>
       <div id="footer-content">
-        <div id="footer-content-left">25 | 75</div>
-        <div id="footer-content-right">75 | 25</div>
+        <div id="footer-content-left"><img src="images/2575.png"></div>
+        <div id="footer-content-right"><img src="images/7525.png"></div>
         <div id="footer-content-slider"><input id="slider" class="mdl-slider mdl-js-slider slider" type="range" min="24.5" max="74.5" value="50" tabindex="0"
           oninput="slideChange();">
         </div>
