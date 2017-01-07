@@ -131,8 +131,9 @@ footer
 {
     position: absolute;
     width: 100px;
-    height : 12px;
+    height : 100px;
     left : 0px;
+    top : -10px;
     text-align: left;
 }
 
@@ -140,7 +141,8 @@ footer
 {
     position: absolute;
     width: 100px;
-    height : 12px;
+    height : 100px;
+    top : -10px;
     right : 0px;
     text-align: right;
 }
