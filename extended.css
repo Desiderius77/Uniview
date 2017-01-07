@@ -45,15 +45,15 @@ p.aboutcard.mdl-card{
 #videos-container
 {
     position:absolute;
-    height:80%;
-    width:80%;
+    height:50%;
+    width:100%;
     overflow: hidden;
 }
 
 #videos-container video 
 {
-    min-width: 80%;
-    min-height: 80%;
+    width: 100%;
+    height: 100%;
 }
 
 .card > .mdl-card__menu {
