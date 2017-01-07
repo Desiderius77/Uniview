@@ -42,6 +42,20 @@ p.aboutcard.mdl-card{
     left:20px;
 }
                   
+.videoContainer 
+{
+    position:absolute;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+
+.videoContainer video 
+{
+    min-width: 100%;
+    min-height: 100%;
+}
+
 .card > .mdl-card__menu {
                     color: #1E1F23;
                   }
