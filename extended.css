@@ -45,7 +45,7 @@ p.aboutcard.mdl-card{
 #videos-container
 {
     position:absolute;
-    height:50%;
+    height:48%;
     width:100%;
     overflow: hidden;
 }
@@ -53,7 +53,7 @@ p.aboutcard.mdl-card{
 #videos-container video 
 {
     width: 100%;
-    height: 100%;
+    height: 98%;
 }
 
 .card > .mdl-card__menu {
