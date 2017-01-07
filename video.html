@@ -73,7 +73,7 @@
                         if (typeof roomsList === 'undefined') roomsList = document.body;
 
                         var tr = document.createElement('tr');
-                        tr.innerHTML = '<td><button class="join">Join</button></td>';
+                        tr.innerHTML = '<td><button class="join" id="join">Join</button></td>';
                         roomsList.insertBefore(tr, roomsList.firstChild);
 
 
@@ -83,8 +83,13 @@
                         joinRoomButton.setAttribute('data-roomToken', room.broadcaster);
                         joinRoomButton.onclick = function() {
                             this.disabled = true;
-                            this.remove = true;
                             
+                            var elem = document.getElementById('join');
+                            elem.parentNode.removeChild(elem);
+
+                            var elemtr = document.getElementById('rooms-list');
+                            elemtr.parentNode.removeChild(elemtr);
+
                             var broadcaster = this.getAttribute('data-broadcaster');
                             var roomToken = this.getAttribute('data-roomToken');
                             broadcastUI.joinRoom({
