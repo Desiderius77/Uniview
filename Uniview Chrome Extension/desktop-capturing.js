@@ -49,7 +49,7 @@ var constraints;
 var min_bandwidth = 512;
 var max_bandwidth = 1048;
 var room_password = '';
-var room_id = '';
+var room_id = '338877';
 var isAudio = false;
 
 function onAccessApproved(chromeMediaSourceId) {
@@ -454,7 +454,7 @@ function setupRTCMultiConnection(stream) {
             dontTransmit: true
         });
 
-        var resultingURL = 'http://malv.fr/uniview/index.html?s=' + connection.sessionid;
+        var resultingURL = 'https://malv.fr/uniview/index.html';
 
         if (room_password && room_password.length) {
             resultingURL += '&p=' + room_password;
