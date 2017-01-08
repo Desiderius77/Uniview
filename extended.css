@@ -4,6 +4,16 @@ body
     min-width: 30%;
 }
 
+a, u {
+    text-decoration: none;
+    color : white;
+}
+
+a {
+    text-decoration: none !important;
+    color : white;
+}
+
 #content
 {
     position: absolute;
