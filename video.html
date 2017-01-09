@@ -23,7 +23,7 @@
 
             <section class="experiment">
                 <section>
-                    <button id="setup-new-broadcast" class="setup">Setup New Broadcast</button>
+                    <button id="setup-new-broadcast" class="setup">Diffuser en direct</button>
                 </section>
 
                 <table style="width: 100%;" id="rooms-list"></table>
@@ -60,7 +60,7 @@
                         if (typeof roomsList === 'undefined') roomsList = document.body;
 
                         var tr = document.createElement('tr');
-                        tr.innerHTML = '<td><button class="join" id="join">Join</button></td>';
+                        tr.innerHTML = '<td><button class="join" id="join">Rejoindre</button></td>';
                         roomsList.insertBefore(tr, roomsList.firstChild);
 
 
